@@ -10,7 +10,7 @@
         <p>{{ Product.price }} $</p>
       </div>
       <div class="aspect-w-4 aspect-h-3 rounded-lg overflow-hidden bg-gray-100">
-        <img :src="'http://localhost:8000/storage/'+Product.image" alt="Model wearing gray t-shirt."
+        <img :src="baseUrl+'/storage/'+Product.image" alt="Model wearing gray t-shirt."
              class="object-center object-cover">
         <div class="flex items-end p-4">
           <button type="button"
@@ -25,6 +25,7 @@
 
 <script setup>
 import {defineProps} from "vue";
+import {baseUrl} from "../composables/constant.js";
 import viewProductComponent from './viewProduct.vue'
 import {openModal, product} from "../composables/viewProduct.js";
 

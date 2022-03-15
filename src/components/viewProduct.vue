@@ -27,7 +27,7 @@
 
               <div class="w-full grid grid-cols-1 gap-y-8 gap-x-6 items-start sm:grid-cols-12 lg:gap-x-8">
                 <div class="aspect-w-2 aspect-h-3 rounded-lg bg-gray-100 overflow-hidden sm:col-span-4 lg:col-span-5">
-                  <img :src="'http://localhost:8000/storage/'+ product.image" :alt="product.product_name"
+                  <img :src="baseUrl+'/storage/'+ product.image" :alt="product.product_name"
                        class="object-center object-cover"/>
                 </div>
                 <div class="sm:col-span-8 lg:col-span-7">
@@ -107,6 +107,7 @@ import {StarIcon} from '@heroicons/vue/solid'
 
 
 import {isOpen, closeModal, product} from '../composables/viewProduct.js'
+import {baseUrl} from '../composables/constant.js'
 
 export default {
   components: {
@@ -124,7 +125,7 @@ export default {
     const open = isOpen
     return {
       product,
-      open,closeModal
+      open,closeModal,baseUrl
     }
   },
 }
