@@ -39,7 +39,7 @@
                     <h3 id="information-heading" class="sr-only">Product information</h3>
 
                     <p class="text-2xl text-gray-900">
-                      {{ product.price }}
+                      Price {{ product.price }} $
                     </p>
 
                     <!-- Reviews -->
