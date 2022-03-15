@@ -2,9 +2,13 @@
 import {ref} from 'vue'
 import {syncProduct} from "../src/composables/cacheProduct.js";
 
-localStorage.setItem('firstLogin', 0)
+if (localStorage.getItem('firstLogin') != 1) {
+  localStorage.setItem('firstLogin', 0)
+}
+
 if (localStorage.getItem('firstLogin') == 0) {
-    syncProduct()
+  syncProduct()
+  console.log('dsfgsd')
   localStorage.setItem('firstLogin', 1)
 }
 </script>
