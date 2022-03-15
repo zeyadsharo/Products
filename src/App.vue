@@ -1,8 +1,13 @@
 <script setup>
 import {ref} from 'vue'
 import {syncProduct} from "../src/composables/cacheProduct.js";
-</script>
 
+localStorage.setItem('firstLogin', 0)
+if (localStorage.getItem('firstLogin') == 0) {
+    syncProduct()
+  localStorage.setItem('firstLogin', 1)
+}
+</script>
 <template>
   <div>
     <header class="bg-white shadow " v-if="$route.meta.title">
