@@ -32,7 +32,7 @@ import {baseUrl} from '../composables/constant.js'
                 </div>
                 <div class="sm:col-span-8 lg:col-span-7">
                   <h2 class="text-2xl font-extrabold text-gray-900 sm:pr-12">
-                    Basic Tee 6-Pack
+                    {{ product.product_name }}
                   </h2>
 
                   <section aria-labelledby="information-heading" class="mt-2">
@@ -50,13 +50,12 @@ import {baseUrl} from '../composables/constant.js'
                     <form>
                       <!-- Colors -->
                       <div>
-                        <h4 class="text-sm text-gray-900 font-medium">Product Attributes</h4>
-
+                        <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Product Attributes</h1>
                         <fieldset v-for="attrs in product.attributes" :key="attrs" class="mt-1">
                           {{ attrs.name }} : {{ attrs.attribute_value }}
                         </fieldset>
                       </div>
-                      <div class=""><h1 class="title-font text-lg font-medium text-gray-900 mb-3">About This Item</h1>
+                      <div class=""><h1 class="title-font text-lg mt-3 font-medium text-gray-900 mb-1">About This Item</h1>
                         <p class="leading-relaxed mb-3">  {{product.product_description}}</p>
                       </div>
 
