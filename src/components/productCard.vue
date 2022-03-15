@@ -38,3 +38,7 @@ function viewProduct(pro) {
   openModal()
 }
 </script>
+
+<style scoped>
+
+</style>

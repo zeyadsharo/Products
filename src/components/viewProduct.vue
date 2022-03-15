@@ -63,22 +63,17 @@
                     <h3 id="options-heading" class="sr-only">Product options</h3>
                     <form>
                       <div>
-                        <h1 class="title-font text-lg font-medium text-gray-900 mb-3">Product Attributes</h1>
+                        <h4 class="text-sm text-gray-900 font-medium">Product options</h4>
                         <RadioGroup class="mt-4">
                           <RadioGroupLabel class="sr-only"> Product options</RadioGroupLabel>
-                          <div class="d-flex items-start space-y-2">
+                          <div class="flex items-center space-x-3">
                             <RadioGroupOption as="template" v-for="attr in product.attributes" :key="attr">
-                              <RadioGroupLabel as="p" class="">
-                                {{ attr.name + ' : ' + attr.attribute_value }}
-
-                              </RadioGroupLabel>
+                                <RadioGroupLabel as="p" class="">
+                                  {{ attr.name  +' : ' + attr.attribute_value}}
+                                </RadioGroupLabel>
                             </RadioGroupOption>
                           </div>
                         </RadioGroup>
-                        <div class="py-3">
-                          <h1 class="title-font text-lg font-medium text-gray-900 mb-3">About this item</h1>
-                          <p class="leading-relaxed mb-3">    {{ product.product_description }}</p>
-                        </div>
                       </div>
                     </form>
                   </section>
@@ -93,6 +88,7 @@
 </template>
 
 <script>
+import {ref} from 'vue'
 import {
   Dialog,
   DialogOverlay,
@@ -104,6 +100,8 @@ import {
 } from '@headlessui/vue'
 import {XIcon} from '@heroicons/vue/outline'
 import {StarIcon} from '@heroicons/vue/solid'
+
+
 import {isOpen, closeModal, product} from '../composables/viewProduct.js'
 import {baseUrl} from '../composables/constant.js'
 
@@ -123,7 +121,7 @@ export default {
     const open = isOpen
     return {
       product,
-      open, closeModal, baseUrl
+      open,closeModal,baseUrl
     }
   },
 }
