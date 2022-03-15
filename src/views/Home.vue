@@ -11,8 +11,7 @@ import productCard from '../components/productCard.vue'
       <div v-if="!isSyncProducts"
            class="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
         <a v-for="product in products" :key="product.product_name" class="group">
-          <productCard :productPrice="product.price" :imageUrl="product.image" :productDescription="product.product_description"
-                       :productName="product.product_name"></productCard>
+          <productCard :Product="product"></productCard>
         </a>
       </div>
     </div>
