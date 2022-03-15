@@ -1,8 +1,8 @@
 Arguments: 
-  C:\Program Files\nodejs\node.exe C:\Users\msi\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add vue-slick-carousel
+  C:\Program Files\nodejs\node.exe C:\Users\msi\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add heroicons
 
 PATH: 
-  E:\WINDOWS.X64_193000_db_home\bin;C:\Perl64\bin;C:\Users\msi\AppData\Roaming\ActiveState\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\exiftool;C:\php;C:\composer;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\chocolatey\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git LFS;C:\Program Files\PuTTY\;C:\Program Files\nodejs;C:\Program Files\nodejs\;E:\WINDOWS.X64_193000_db_home\bin;C:\Perl64\bin;C:\Users\msi\AppData\Roaming\ActiveState\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\HashiCorp\Vagrant\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\exiftool;C:\php;C:\composer;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\chocolatey\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git LFS;C:\Program Files\PuTTY\;C:\Python39\Scripts\;C:\Python39\;C:\Users\msi\.windows-build-tools\python27\;C:\Users\msi\AppData\Local\Programs\Python\Pyt;C:\Users\msi\AppData\Local\Programs\Microsoft VS Code\bin
+  E:\WINDOWS.X64_193000_db_home\bin;C:\Perl64\bin;C:\Users\msi\AppData\Roaming\ActiveState\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\exiftool;C:\php;C:\composer;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\chocolatey\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git LFS;C:\Program Files\PuTTY\;C:\Program Files\nodejs;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;E:\WINDOWS.X64_193000_db_home\bin;C:\Perl64\bin;C:\Users\msi\AppData\Roaming\ActiveState\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\HashiCorp\Vagrant\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\exiftool;C:\php;C:\composer;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\chocolatey\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git LFS;C:\Program Files\PuTTY\;C:\Python39\Scripts\;C:\Python39\;C:\Users\msi\.windows-build-tools\python27\;C:\Users\msi\AppData\Local\Programs\Python\Pyt;C:\Users\msi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\msi\AppData\Roaming\Composer\vendor\bin
 
 Yarn version: 
   1.22.17
@@ -14,7 +14,7 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: EPERM: operation not permitted, unlink 'D:\Horizon\horizon novl\node_modules\esbuild-windows-64\esbuild.exe'
+  Error: EPERM: operation not permitted, unlink 'D:\getway Test\productsFrondEnd\node_modules\esbuild-windows-64\esbuild.exe'
 
 npm manifest: 
   {
@@ -29,8 +29,10 @@ npm manifest:
     "dependencies": {
       "@headlessui/vue": "^1.5.0",
       "@heroicons/vue": "^1.0.5",
+      "axios": "^0.26.1",
       "vue": "^3.2.31",
-      "vue-router": "^4.0.12"
+      "vue-router": "^4.0.12",
+      "vue-slick-carousel": "^1.0.6"
     },
     "devDependencies": {
       "@tailwindcss/aspect-ratio": "^0.4.0",
@@ -304,6 +306,13 @@ Lockfile:
       "picocolors" "^1.0.0"
       "postcss-value-parser" "^4.2.0"
   
+  "axios@^0.26.1":
+    "integrity" "sha512-fPwcX4EvnSHuInCMItEhAGnaSEXRBjtzh9fOtsE6E1G6p7vl7edEeZe11QHf18+6+9gR5PbKV/sGKNaD8YaMeA=="
+    "resolved" "https://registry.npmjs.org/axios/-/axios-0.26.1.tgz"
+    "version" "0.26.1"
+    dependencies:
+      "follow-redirects" "^1.14.8"
+  
   "binary-extensions@^2.0.0":
     "integrity" "sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA=="
     "resolved" "https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.2.0.tgz"
@@ -464,6 +473,11 @@ Lockfile:
     "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.31.tgz"
     "version" "1.4.31"
   
+  "enquire.js@2.1.6":
+    "integrity" "sha1-PoeAybi4NQhMP2DhZtvDwqPImBQ="
+    "resolved" "https://registry.npmjs.org/enquire.js/-/enquire.js-2.1.6.tgz"
+    "version" "2.1.6"
+  
   "error-ex@^1.3.1":
     "integrity" "sha512-7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g=="
     "resolved" "https://registry.npmjs.org/error-ex/-/error-ex-1.3.2.tgz"
@@ -540,6 +554,11 @@ Lockfile:
     "version" "7.0.1"
     dependencies:
       "to-regex-range" "^5.0.1"
+  
+  "follow-redirects@^1.14.8":
+    "integrity" "sha512-MQDfihBQYMcyy5dhRDJUHcw7lb2Pv/TuE6xP1vyraLukNDHKbDxDNaOE3NbCAdKQApno+GPRyo1YAp89yCjK4w=="
+    "resolved" "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.14.9.tgz"
+    "version" "1.14.9"
   
   "fraction.js@^4.1.2":
     "integrity" "sha512-o2RiJQ6DZaR/5+Si0qJUIy637QMRudSi9kU/FFzx9EZazrIdnBgpU+3sEWCxAVhH2RtxW2Oz+T4p2o8uOPVcgA=="
@@ -662,6 +681,13 @@ Lockfile:
     "resolved" "https://registry.npmjs.org/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz"
     "version" "2.3.1"
   
+  "json2mq@0.2.0":
+    "integrity" "sha1-tje9O6nqvhIsg+lyBIOusQ0skEo="
+    "resolved" "https://registry.npmjs.org/json2mq/-/json2mq-0.2.0.tgz"
+    "version" "0.2.0"
+    dependencies:
+      "string-convert" "^0.2.0"
+  
   "lilconfig@^2.0.3":
     "integrity" "sha512-EHKqr/+ZvdKCifpNrJCKxBTgk5XupZA3y/aCPY9mxfgBzmgh93Mt/WqjjQ38oMxXuvDokaKiM3lAgvSH2sjtHg=="
     "resolved" "https://registry.npmjs.org/lilconfig/-/lilconfig-2.0.3.tgz"
@@ -672,10 +698,25 @@ Lockfile:
     "resolved" "https://registry.npmjs.org/lines-and-columns/-/lines-and-columns-1.1.6.tgz"
     "version" "1.1.6"
   
+  "lodash.assign@^4.2.0":
+    "integrity" "sha1-DZnzzNem0mHRm9rrkkUAXShYCOc="
+    "resolved" "https://registry.npmjs.org/lodash.assign/-/lodash.assign-4.2.0.tgz"
+    "version" "4.2.0"
+  
   "lodash.castarray@^4.4.0":
     "integrity" "sha1-wCUTUV4wna3dTCTGDP3c9ZdtkRU="
     "resolved" "https://registry.npmjs.org/lodash.castarray/-/lodash.castarray-4.4.0.tgz"
     "version" "4.4.0"
+  
+  "lodash.debounce@^4.0.8":
+    "integrity" "sha1-gteb/zCmfEAF/9XiUVMArZyk168="
+    "resolved" "https://registry.npmjs.org/lodash.debounce/-/lodash.debounce-4.0.8.tgz"
+    "version" "4.0.8"
+  
+  "lodash.get@^4.4.2":
+    "integrity" "sha1-LRd/ZS+jHpObRDjVNBSZ36OCXpk="
+    "resolved" "https://registry.npmjs.org/lodash.get/-/lodash.get-4.4.2.tgz"
+    "version" "4.4.2"
   
   "lodash.isplainobject@^4.0.6":
     "integrity" "sha1-fFJqUtibRcRcxpC4gWO+BJf1UMs="
@@ -686,6 +727,11 @@ Lockfile:
     "integrity" "sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ=="
     "resolved" "https://registry.npmjs.org/lodash.merge/-/lodash.merge-4.6.2.tgz"
     "version" "4.6.2"
+  
+  "lodash.pick@^4.4.0":
+    "integrity" "sha1-UvBWEP/53tQiYRRB7R/BI6AwAbM="
+    "resolved" "https://registry.npmjs.org/lodash.pick/-/lodash.pick-4.4.0.tgz"
+    "version" "4.4.0"
   
   "magic-string@^0.25.7":
     "integrity" "sha512-4CrMT5DOHTDk4HYDlzmwu4FVCcIYI8gauveasrdCu2IKIFOJ3f0v/8MDGJCDL9oD2ppz/Av1b0Nj345H9M+XIA=="
@@ -846,6 +892,11 @@ Lockfile:
     dependencies:
       "picomatch" "^2.2.1"
   
+  "resize-observer-polyfill@1.5.1":
+    "integrity" "sha512-LwZrotdHOo12nQuZlHEmtuXdqGoOD0OhaxopaNFxWzInpEgaLWoVuAMbTzixuosCx2nEG58ngzW3vxdWoxIgdg=="
+    "resolved" "https://registry.npmjs.org/resize-observer-polyfill/-/resize-observer-polyfill-1.5.1.tgz"
+    "version" "1.5.1"
+  
   "resolve-from@^4.0.0":
     "integrity" "sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g=="
     "resolved" "https://registry.npmjs.org/resolve-from/-/resolve-from-4.0.0.tgz"
@@ -910,6 +961,11 @@ Lockfile:
     "integrity" "sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA=="
     "resolved" "https://registry.npmjs.org/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz"
     "version" "1.4.8"
+  
+  "string-convert@^0.2.0":
+    "integrity" "sha1-aYLMMEn7tM2F+LJFaLnZvznu/5c="
+    "resolved" "https://registry.npmjs.org/string-convert/-/string-convert-0.2.1.tgz"
+    "version" "0.2.1"
   
   "supports-color@^5.3.0":
     "integrity" "sha512-QjVjwdXIt408MIiAqCX4oUKsgU2EqAGzs2Ppkm4aQYbjm+ZEWEcW4SfFNTr4uMNZma0ey4f5lgLrkB0aX0QMow=="
@@ -987,6 +1043,25 @@ Lockfile:
     "version" "4.0.12"
     dependencies:
       "@vue/devtools-api" "^6.0.0-beta.18"
+  
+  "vue-slick-carousel@^1.0.6":
+    "integrity" "sha512-1CN/hpWC8m1U/eO7Kuc71jntJqdg6Z/ieLji21OPfQUhs8ZYnnGhQSu1covpa3IyuovM9T5puPCVgexs3DDF5A=="
+    "resolved" "https://registry.npmjs.org/vue-slick-carousel/-/vue-slick-carousel-1.0.6.tgz"
+    "version" "1.0.6"
+    dependencies:
+      "enquire.js" "2.1.6"
+      "json2mq" "0.2.0"
+      "lodash.assign" "^4.2.0"
+      "lodash.debounce" "^4.0.8"
+      "lodash.get" "^4.4.2"
+      "lodash.pick" "^4.4.0"
+      "resize-observer-polyfill" "1.5.1"
+      "vue" "^2.6.10"
+  
+  "vue@^2.6.10":
+    "integrity" "sha512-x2284lgYvjOMj3Za7kqzRcUSxBboHqtgRE2zlos1qWaOye5yUmHn42LB1250NJBLRwEcdrB0JRwyPTEPhfQjiQ=="
+    "resolved" "https://registry.npmjs.org/vue/-/vue-2.6.14.tgz"
+    "version" "2.6.14"
   
   "vue@^3.0.0", "vue@^3.2.0", "vue@^3.2.25", "vue@^3.2.31", "vue@>= 3", "vue@3.2.31":
     "integrity" "sha512-odT3W2tcffTiQCy57nOT93INw1auq5lYLLYtWpPYQQYQOOdHiqFct9Xhna6GJ+pJQaF67yZABraH47oywkJgFw=="

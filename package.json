@@ -10,6 +10,7 @@
   "dependencies": {
     "@headlessui/vue": "^1.5.0",
     "@heroicons/vue": "^1.0.5",
+    "axios": "^0.26.1",
     "vue": "^3.2.31",
     "vue-router": "^4.0.12",
     "vue-slick-carousel": "^1.0.6"

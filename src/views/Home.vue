@@ -1,28 +1,19 @@
 <script setup>
-// import ButtonRepo from './components/ButtonRepo.vue'
+import {ref, watch} from "vue";
+import {isSyncProducts} from '../composables/cacheProduct.js'
+import products from "../store/products.js";
+import productCard from '../components/productCard.vue'
 </script>
-
 <template>
   <div class="bg-gray-50">
-    <div
-      class="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8"
-    >
-      <h2
-        class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10"
-      >
-        Ready to dive in?
-        <br />
-        <span class="text-indigo-600">Products</span>
-      </h2>
-      <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
-        <div class="inline-flex rounded-md shadow">
-          <router-link
-            to="/about"
-            class="inline-flex items-center justify-center rounded-md border border-transparent bg-indigo-600 px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out hover:bg-indigo-500 focus:outline-none"
-            >Next Page</router-link
-          >
-        </div>
-        <!-- <ButtonRepo /> -->
+    <div class="max-w-2xl mx-auto py-16 px-4 sm:py-7 sm:px-6 lg:max-w-7xl lg:px-8">
+      <h2 class="sr-only">Products</h2>
+      <div v-if="!isSyncProducts"
+           class="grid grid-cols-1 gap-y-10 sm:grid-cols-2 gap-x-6 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
+        <a v-for="product in products" :key="product.product_name" class="group">
+          <productCard :productPrice="product.price" :imageUrl="product.image" :productDescription="product.product_description"
+                       :productName="product.product_name"></productCard>
+        </a>
       </div>
     </div>
   </div>
